@@ -1,0 +1,32 @@
+{
+  "name": "mini-project-manager",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.2.7",
+    "bcryptjs": "^2.4.3",
+    "jose": "^5.9.6",
+    "mongoose": "^8.7.0",
+    "next": "^14.2.15",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-redux": "^9.1.2",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/node": "^20.16.0",
+    "@types/react": "^18.3.11",
+    "@types/react-dom": "^18.3.0",
+    "mongodb-memory-server": "^10.4.3",
+    "typescript": "^5.6.2",
+    "vitest": "^2.1.9"
+  }
+}
